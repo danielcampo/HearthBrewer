@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A909388919A1C3F100C9D27B /* generic.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387419A1C3F100C9D27B /* generic.png */; };
+		A909388A19A1C3F100C9D27B /* hearthstone_card_001.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387519A1C3F100C9D27B /* hearthstone_card_001.png */; };
+		A909388B19A1C3F100C9D27B /* hearthstone_card_002.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387619A1C3F100C9D27B /* hearthstone_card_002.png */; };
+		A909388C19A1C3F100C9D27B /* hearthstone_card_003.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387719A1C3F100C9D27B /* hearthstone_card_003.png */; };
+		A909388D19A1C3F100C9D27B /* hearthstone_card_004.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387819A1C3F100C9D27B /* hearthstone_card_004.png */; };
+		A909388E19A1C3F100C9D27B /* hearthstone_card_005.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387919A1C3F100C9D27B /* hearthstone_card_005.png */; };
+		A909388F19A1C3F100C9D27B /* hearthstone_card_006.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387A19A1C3F100C9D27B /* hearthstone_card_006.png */; };
+		A909389019A1C3F100C9D27B /* hearthstone_card_007.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387B19A1C3F100C9D27B /* hearthstone_card_007.png */; };
+		A909389119A1C3F100C9D27B /* hearthstone_card_008.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387C19A1C3F100C9D27B /* hearthstone_card_008.png */; };
+		A909389219A1C3F100C9D27B /* hearthstone_card_009.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387D19A1C3F100C9D27B /* hearthstone_card_009.png */; };
+		A909389319A1C3F100C9D27B /* hearthstone_card_010.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387E19A1C3F100C9D27B /* hearthstone_card_010.png */; };
+		A909389419A1C3F100C9D27B /* hearthstone_card_011.png in Resources */ = {isa = PBXBuildFile; fileRef = A909387F19A1C3F100C9D27B /* hearthstone_card_011.png */; };
+		A909389519A1C3F100C9D27B /* hearthstone_card_012.png in Resources */ = {isa = PBXBuildFile; fileRef = A909388019A1C3F100C9D27B /* hearthstone_card_012.png */; };
+		A909389619A1C3F100C9D27B /* hearthstone_card_013.png in Resources */ = {isa = PBXBuildFile; fileRef = A909388119A1C3F100C9D27B /* hearthstone_card_013.png */; };
+		A909389719A1C3F100C9D27B /* hearthstone_card_014.png in Resources */ = {isa = PBXBuildFile; fileRef = A909388219A1C3F100C9D27B /* hearthstone_card_014.png */; };
+		A909389819A1C3F100C9D27B /* hearthstone_card_015.png in Resources */ = {isa = PBXBuildFile; fileRef = A909388319A1C3F100C9D27B /* hearthstone_card_015.png */; };
+		A909389919A1C3F100C9D27B /* hearthstone_card_016.png in Resources */ = {isa = PBXBuildFile; fileRef = A909388419A1C3F100C9D27B /* hearthstone_card_016.png */; };
+		A909389A19A1C3F100C9D27B /* hearthstone_card_017.png in Resources */ = {isa = PBXBuildFile; fileRef = A909388519A1C3F100C9D27B /* hearthstone_card_017.png */; };
+		A909389B19A1C3F100C9D27B /* hearthstone_card_018.png in Resources */ = {isa = PBXBuildFile; fileRef = A909388619A1C3F100C9D27B /* hearthstone_card_018.png */; };
+		A909389C19A1C3F100C9D27B /* hearthstone_card_019.png in Resources */ = {isa = PBXBuildFile; fileRef = A909388719A1C3F100C9D27B /* hearthstone_card_019.png */; };
+		A909389D19A1C3F100C9D27B /* hearthstone_card_020.png in Resources */ = {isa = PBXBuildFile; fileRef = A909388819A1C3F100C9D27B /* hearthstone_card_020.png */; };
+		A90938A119A1C40200C9D27B /* create_btn_create.png in Resources */ = {isa = PBXBuildFile; fileRef = A909389E19A1C40200C9D27B /* create_btn_create.png */; };
+		A90938A219A1C40200C9D27B /* create_hero_choose.png in Resources */ = {isa = PBXBuildFile; fileRef = A909389F19A1C40200C9D27B /* create_hero_choose.png */; };
+		A90938A319A1C40200C9D27B /* hb_bg_main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A90938A019A1C40200C9D27B /* hb_bg_main.jpg */; };
+		A90938B719A1C41600C9D27B /* hero_anduin_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938A419A1C41600C9D27B /* hero_anduin_thumb.png */; };
+		A90938B819A1C41600C9D27B /* hero_anduin.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938A519A1C41600C9D27B /* hero_anduin.png */; };
+		A90938B919A1C41600C9D27B /* hero_garosh.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938A619A1C41600C9D27B /* hero_garosh.png */; };
+		A90938BA19A1C41600C9D27B /* hero_garrosh_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938A719A1C41600C9D27B /* hero_garrosh_thumb.png */; };
+		A90938BB19A1C41600C9D27B /* hero_garrosh.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938A819A1C41600C9D27B /* hero_garrosh.png */; };
+		A90938BC19A1C41600C9D27B /* hero_guldan_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938A919A1C41600C9D27B /* hero_guldan_thumb.png */; };
+		A90938BD19A1C41600C9D27B /* hero_guldan.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938AA19A1C41600C9D27B /* hero_guldan.png */; };
+		A90938BE19A1C41600C9D27B /* hero_jaina_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938AB19A1C41600C9D27B /* hero_jaina_thumb.png */; };
+		A90938BF19A1C41600C9D27B /* hero_jaina.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938AC19A1C41600C9D27B /* hero_jaina.png */; };
+		A90938C019A1C41600C9D27B /* hero_malfurion_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938AD19A1C41600C9D27B /* hero_malfurion_thumb.png */; };
+		A90938C119A1C41600C9D27B /* hero_malfurion.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938AE19A1C41600C9D27B /* hero_malfurion.png */; };
+		A90938C219A1C41600C9D27B /* hero_rexxar_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938AF19A1C41600C9D27B /* hero_rexxar_thumb.png */; };
+		A90938C319A1C41600C9D27B /* hero_rexxar.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938B019A1C41600C9D27B /* hero_rexxar.png */; };
+		A90938C419A1C41600C9D27B /* hero_thall.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938B119A1C41600C9D27B /* hero_thall.png */; };
+		A90938C519A1C41600C9D27B /* hero_thrall_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938B219A1C41600C9D27B /* hero_thrall_thumb.png */; };
+		A90938C619A1C41600C9D27B /* hero_thrall.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938B319A1C41600C9D27B /* hero_thrall.png */; };
+		A90938C719A1C41600C9D27B /* hero_uther_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938B419A1C41600C9D27B /* hero_uther_thumb.png */; };
+		A90938C819A1C41600C9D27B /* hero_uther.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938B519A1C41600C9D27B /* hero_uther.png */; };
+		A90938C919A1C41600C9D27B /* hero_valeera_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A90938B619A1C41600C9D27B /* hero_valeera_thumb.png */; };
+		A90B69DD199D8E3000B0EF2A /* ViewDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B69DC199D8E3000B0EF2A /* ViewDeckViewController.m */; };
+		A90B69E0199D8EF000B0EF2A /* CardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B69DF199D8EF000B0EF2A /* CardClass.m */; };
+		A90B69E3199D911100B0EF2A /* CardListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B69E2199D911100B0EF2A /* CardListTableViewCell.m */; };
+		A90B69E5199D925500B0EF2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90B69E4199D925500B0EF2A /* CoreGraphics.framework */; };
+		A90B69E7199D925B00B0EF2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90B69E6199D925B00B0EF2A /* UIKit.framework */; };
+		A90B69E9199D926200B0EF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90B69E8199D926200B0EF2A /* Foundation.framework */; };
+		A94733BE199D95620051E2FB /* CardSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94733BD199D95620051E2FB /* CardSingleViewController.m */; };
+		A94733C1199D97370051E2FB /* CreateDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94733C0199D97370051E2FB /* CreateDeckViewController.m */; };
+		A94733ED199D9D2A0051E2FB /* CreateDeckCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94733EC199D9D2A0051E2FB /* CreateDeckCardsViewController.m */; };
+		A94733EF199DA3920051E2FB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94733EE199DA3920051E2FB /* MessageUI.framework */; };
+		A94B727D19A1D8E9006CBF5E /* all-cards.json in Resources */ = {isa = PBXBuildFile; fileRef = A94B727C19A1D8E9006CBF5E /* all-cards.json */; };
+		A9578D3E19AF9FAA00BFB70A /* hero_valeera.png in Resources */ = {isa = PBXBuildFile; fileRef = A9578D3D19AF9FAA00BFB70A /* hero_valeera.png */; };
+		A962696319AFE0A900780D3B /* create_cards_added.png in Resources */ = {isa = PBXBuildFile; fileRef = A962696119AFE0A900780D3B /* create_cards_added.png */; };
+		A962696419AFE0A900780D3B /* create_cards_available.png in Resources */ = {isa = PBXBuildFile; fileRef = A962696219AFE0A900780D3B /* create_cards_available.png */; };
+		A9793074199D8132006364A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9793073199D8132006364A4 /* main.m */; };
+		A9793077199D8132006364A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9793076199D8132006364A4 /* AppDelegate.m */; };
+		A979307A199D8132006364A4 /* hearthBrewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9793078199D8132006364A4 /* hearthBrewer.xcdatamodeld */; };
+		A979307D199D8132006364A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A979307C199D8132006364A4 /* ViewController.m */; };
+		A9793080199D8132006364A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A979307E199D8132006364A4 /* Main.storyboard */; };
+		A9793082199D8132006364A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9793081199D8132006364A4 /* Images.xcassets */; };
+		A979308E199D8132006364A4 /* hearthBrewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A979308D199D8132006364A4 /* hearthBrewerTests.m */; };
+		A9D06716199D88AB0030D091 /* HeroClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D06715199D88AB0030D091 /* HeroClass.m */; };
+		A9D06719199D88EE0030D091 /* DeckClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D06718199D88EE0030D091 /* DeckClass.m */; };
+		A9D0671C199D89450030D091 /* DeckListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D0671B199D89450030D091 /* DeckListTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9793088199D8132006364A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9793066199D8132006364A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A979306D199D8132006364A4;
+			remoteInfo = hearthBrewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A909387419A1C3F100C9D27B /* generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = generic.png; path = assets/img/cards/generic.png; sourceTree = "<group>"; };
+		A909387519A1C3F100C9D27B /* hearthstone_card_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_001.png; path = assets/img/cards/hearthstone_card_001.png; sourceTree = "<group>"; };
+		A909387619A1C3F100C9D27B /* hearthstone_card_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_002.png; path = assets/img/cards/hearthstone_card_002.png; sourceTree = "<group>"; };
+		A909387719A1C3F100C9D27B /* hearthstone_card_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_003.png; path = assets/img/cards/hearthstone_card_003.png; sourceTree = "<group>"; };
+		A909387819A1C3F100C9D27B /* hearthstone_card_004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_004.png; path = assets/img/cards/hearthstone_card_004.png; sourceTree = "<group>"; };
+		A909387919A1C3F100C9D27B /* hearthstone_card_005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_005.png; path = assets/img/cards/hearthstone_card_005.png; sourceTree = "<group>"; };
+		A909387A19A1C3F100C9D27B /* hearthstone_card_006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_006.png; path = assets/img/cards/hearthstone_card_006.png; sourceTree = "<group>"; };
+		A909387B19A1C3F100C9D27B /* hearthstone_card_007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_007.png; path = assets/img/cards/hearthstone_card_007.png; sourceTree = "<group>"; };
+		A909387C19A1C3F100C9D27B /* hearthstone_card_008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_008.png; path = assets/img/cards/hearthstone_card_008.png; sourceTree = "<group>"; };
+		A909387D19A1C3F100C9D27B /* hearthstone_card_009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_009.png; path = assets/img/cards/hearthstone_card_009.png; sourceTree = "<group>"; };
+		A909387E19A1C3F100C9D27B /* hearthstone_card_010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_010.png; path = assets/img/cards/hearthstone_card_010.png; sourceTree = "<group>"; };
+		A909387F19A1C3F100C9D27B /* hearthstone_card_011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_011.png; path = assets/img/cards/hearthstone_card_011.png; sourceTree = "<group>"; };
+		A909388019A1C3F100C9D27B /* hearthstone_card_012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_012.png; path = assets/img/cards/hearthstone_card_012.png; sourceTree = "<group>"; };
+		A909388119A1C3F100C9D27B /* hearthstone_card_013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_013.png; path = assets/img/cards/hearthstone_card_013.png; sourceTree = "<group>"; };
+		A909388219A1C3F100C9D27B /* hearthstone_card_014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_014.png; path = assets/img/cards/hearthstone_card_014.png; sourceTree = "<group>"; };
+		A909388319A1C3F100C9D27B /* hearthstone_card_015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_015.png; path = assets/img/cards/hearthstone_card_015.png; sourceTree = "<group>"; };
+		A909388419A1C3F100C9D27B /* hearthstone_card_016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_016.png; path = assets/img/cards/hearthstone_card_016.png; sourceTree = "<group>"; };
+		A909388519A1C3F100C9D27B /* hearthstone_card_017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_017.png; path = assets/img/cards/hearthstone_card_017.png; sourceTree = "<group>"; };
+		A909388619A1C3F100C9D27B /* hearthstone_card_018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_018.png; path = assets/img/cards/hearthstone_card_018.png; sourceTree = "<group>"; };
+		A909388719A1C3F100C9D27B /* hearthstone_card_019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_019.png; path = assets/img/cards/hearthstone_card_019.png; sourceTree = "<group>"; };
+		A909388819A1C3F100C9D27B /* hearthstone_card_020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearthstone_card_020.png; path = assets/img/cards/hearthstone_card_020.png; sourceTree = "<group>"; };
+		A909389E19A1C40200C9D27B /* create_btn_create.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = create_btn_create.png; path = assets/img/create_btn_create.png; sourceTree = "<group>"; };
+		A909389F19A1C40200C9D27B /* create_hero_choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = create_hero_choose.png; path = assets/img/create_hero_choose.png; sourceTree = "<group>"; };
+		A90938A019A1C40200C9D27B /* hb_bg_main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hb_bg_main.jpg; path = assets/img/hb_bg_main.jpg; sourceTree = "<group>"; };
+		A90938A419A1C41600C9D27B /* hero_anduin_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_anduin_thumb.png; path = assets/img/heroes/hero_anduin_thumb.png; sourceTree = "<group>"; };
+		A90938A519A1C41600C9D27B /* hero_anduin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_anduin.png; path = assets/img/heroes/hero_anduin.png; sourceTree = "<group>"; };
+		A90938A619A1C41600C9D27B /* hero_garosh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_garosh.png; path = assets/img/heroes/hero_garosh.png; sourceTree = "<group>"; };
+		A90938A719A1C41600C9D27B /* hero_garrosh_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_garrosh_thumb.png; path = assets/img/heroes/hero_garrosh_thumb.png; sourceTree = "<group>"; };
+		A90938A819A1C41600C9D27B /* hero_garrosh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_garrosh.png; path = assets/img/heroes/hero_garrosh.png; sourceTree = "<group>"; };
+		A90938A919A1C41600C9D27B /* hero_guldan_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_guldan_thumb.png; path = assets/img/heroes/hero_guldan_thumb.png; sourceTree = "<group>"; };
+		A90938AA19A1C41600C9D27B /* hero_guldan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_guldan.png; path = assets/img/heroes/hero_guldan.png; sourceTree = "<group>"; };
+		A90938AB19A1C41600C9D27B /* hero_jaina_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_jaina_thumb.png; path = assets/img/heroes/hero_jaina_thumb.png; sourceTree = "<group>"; };
+		A90938AC19A1C41600C9D27B /* hero_jaina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_jaina.png; path = assets/img/heroes/hero_jaina.png; sourceTree = "<group>"; };
+		A90938AD19A1C41600C9D27B /* hero_malfurion_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_malfurion_thumb.png; path = assets/img/heroes/hero_malfurion_thumb.png; sourceTree = "<group>"; };
+		A90938AE19A1C41600C9D27B /* hero_malfurion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_malfurion.png; path = assets/img/heroes/hero_malfurion.png; sourceTree = "<group>"; };
+		A90938AF19A1C41600C9D27B /* hero_rexxar_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_rexxar_thumb.png; path = assets/img/heroes/hero_rexxar_thumb.png; sourceTree = "<group>"; };
+		A90938B019A1C41600C9D27B /* hero_rexxar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_rexxar.png; path = assets/img/heroes/hero_rexxar.png; sourceTree = "<group>"; };
+		A90938B119A1C41600C9D27B /* hero_thall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_thall.png; path = assets/img/heroes/hero_thall.png; sourceTree = "<group>"; };
+		A90938B219A1C41600C9D27B /* hero_thrall_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_thrall_thumb.png; path = assets/img/heroes/hero_thrall_thumb.png; sourceTree = "<group>"; };
+		A90938B319A1C41600C9D27B /* hero_thrall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_thrall.png; path = assets/img/heroes/hero_thrall.png; sourceTree = "<group>"; };
+		A90938B419A1C41600C9D27B /* hero_uther_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_uther_thumb.png; path = assets/img/heroes/hero_uther_thumb.png; sourceTree = "<group>"; };
+		A90938B519A1C41600C9D27B /* hero_uther.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_uther.png; path = assets/img/heroes/hero_uther.png; sourceTree = "<group>"; };
+		A90938B619A1C41600C9D27B /* hero_valeera_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_valeera_thumb.png; path = assets/img/heroes/hero_valeera_thumb.png; sourceTree = "<group>"; };
+		A90B69DB199D8E3000B0EF2A /* ViewDeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDeckViewController.h; sourceTree = "<group>"; };
+		A90B69DC199D8E3000B0EF2A /* ViewDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDeckViewController.m; sourceTree = "<group>"; };
+		A90B69DE199D8EF000B0EF2A /* CardClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardClass.h; sourceTree = "<group>"; };
+		A90B69DF199D8EF000B0EF2A /* CardClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardClass.m; sourceTree = "<group>"; };
+		A90B69E1199D911100B0EF2A /* CardListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardListTableViewCell.h; sourceTree = "<group>"; };
+		A90B69E2199D911100B0EF2A /* CardListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardListTableViewCell.m; sourceTree = "<group>"; };
+		A90B69E4199D925500B0EF2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A90B69E6199D925B00B0EF2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A90B69E8199D926200B0EF2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A94733BC199D95620051E2FB /* CardSingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSingleViewController.h; sourceTree = "<group>"; };
+		A94733BD199D95620051E2FB /* CardSingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSingleViewController.m; sourceTree = "<group>"; };
+		A94733BF199D97370051E2FB /* CreateDeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateDeckViewController.h; sourceTree = "<group>"; };
+		A94733C0199D97370051E2FB /* CreateDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateDeckViewController.m; sourceTree = "<group>"; };
+		A94733EB199D9D2A0051E2FB /* CreateDeckCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateDeckCardsViewController.h; sourceTree = "<group>"; };
+		A94733EC199D9D2A0051E2FB /* CreateDeckCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateDeckCardsViewController.m; sourceTree = "<group>"; };
+		A94733EE199DA3920051E2FB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A94B727C19A1D8E9006CBF5E /* all-cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "all-cards.json"; path = "assets/json/all-cards.json"; sourceTree = "<group>"; };
+		A9578D3D19AF9FAA00BFB70A /* hero_valeera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_valeera.png; path = assets/img/heroes/hero_valeera.png; sourceTree = "<group>"; };
+		A962696119AFE0A900780D3B /* create_cards_added.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = create_cards_added.png; path = assets/img/create_cards_added.png; sourceTree = "<group>"; };
+		A962696219AFE0A900780D3B /* create_cards_available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = create_cards_available.png; path = assets/img/create_cards_available.png; sourceTree = "<group>"; };
+		A979306E199D8132006364A4 /* hearthBrewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hearthBrewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9793072199D8132006364A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9793073199D8132006364A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9793075199D8132006364A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9793076199D8132006364A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9793079199D8132006364A4 /* hearthBrewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hearthBrewer.xcdatamodel; sourceTree = "<group>"; };
+		A979307B199D8132006364A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A979307C199D8132006364A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A979307F199D8132006364A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9793081199D8132006364A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9793087199D8132006364A4 /* hearthBrewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hearthBrewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A979308C199D8132006364A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A979308D199D8132006364A4 /* hearthBrewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hearthBrewerTests.m; sourceTree = "<group>"; };
+		A9D06714199D88AB0030D091 /* HeroClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroClass.h; sourceTree = "<group>"; };
+		A9D06715199D88AB0030D091 /* HeroClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroClass.m; sourceTree = "<group>"; };
+		A9D06717199D88EE0030D091 /* DeckClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckClass.h; sourceTree = "<group>"; };
+		A9D06718199D88EE0030D091 /* DeckClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckClass.m; sourceTree = "<group>"; };
+		A9D0671A199D89450030D091 /* DeckListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckListTableViewCell.h; sourceTree = "<group>"; };
+		A9D0671B199D89450030D091 /* DeckListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckListTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A979306B199D8132006364A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94733EF199DA3920051E2FB /* MessageUI.framework in Frameworks */,
+				A90B69E9199D926200B0EF2A /* Foundation.framework in Frameworks */,
+				A90B69E7199D925B00B0EF2A /* UIKit.framework in Frameworks */,
+				A90B69E5199D925500B0EF2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9793084199D8132006364A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A90938CA19A1C42100C9D27B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A90938CB19A1C44B00C9D27B /* json */,
+				A9274921199D85DF00E285EA /* img */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		A90938CB19A1C44B00C9D27B /* json */ = {
+			isa = PBXGroup;
+			children = (
+				A94B727C19A1D8E9006CBF5E /* all-cards.json */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		A9274921199D85DF00E285EA /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A962696119AFE0A900780D3B /* create_cards_added.png */,
+				A962696219AFE0A900780D3B /* create_cards_available.png */,
+				A909389E19A1C40200C9D27B /* create_btn_create.png */,
+				A909389F19A1C40200C9D27B /* create_hero_choose.png */,
+				A90938A019A1C40200C9D27B /* hb_bg_main.jpg */,
+				A94733C2199D985C0051E2FB /* heroes */,
+				A9473393199D94C50051E2FB /* cards */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		A9473392199D92E80051E2FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94733EE199DA3920051E2FB /* MessageUI.framework */,
+				A90B69E8199D926200B0EF2A /* Foundation.framework */,
+				A90B69E6199D925B00B0EF2A /* UIKit.framework */,
+				A90B69E4199D925500B0EF2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9473393199D94C50051E2FB /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				A909387419A1C3F100C9D27B /* generic.png */,
+				A909387519A1C3F100C9D27B /* hearthstone_card_001.png */,
+				A909387619A1C3F100C9D27B /* hearthstone_card_002.png */,
+				A909387719A1C3F100C9D27B /* hearthstone_card_003.png */,
+				A909387819A1C3F100C9D27B /* hearthstone_card_004.png */,
+				A909387919A1C3F100C9D27B /* hearthstone_card_005.png */,
+				A909387A19A1C3F100C9D27B /* hearthstone_card_006.png */,
+				A909387B19A1C3F100C9D27B /* hearthstone_card_007.png */,
+				A909387C19A1C3F100C9D27B /* hearthstone_card_008.png */,
+				A909387D19A1C3F100C9D27B /* hearthstone_card_009.png */,
+				A909387E19A1C3F100C9D27B /* hearthstone_card_010.png */,
+				A909387F19A1C3F100C9D27B /* hearthstone_card_011.png */,
+				A909388019A1C3F100C9D27B /* hearthstone_card_012.png */,
+				A909388119A1C3F100C9D27B /* hearthstone_card_013.png */,
+				A909388219A1C3F100C9D27B /* hearthstone_card_014.png */,
+				A909388319A1C3F100C9D27B /* hearthstone_card_015.png */,
+				A909388419A1C3F100C9D27B /* hearthstone_card_016.png */,
+				A909388519A1C3F100C9D27B /* hearthstone_card_017.png */,
+				A909388619A1C3F100C9D27B /* hearthstone_card_018.png */,
+				A909388719A1C3F100C9D27B /* hearthstone_card_019.png */,
+				A909388819A1C3F100C9D27B /* hearthstone_card_020.png */,
+			);
+			name = cards;
+			sourceTree = "<group>";
+		};
+		A94733C2199D985C0051E2FB /* heroes */ = {
+			isa = PBXGroup;
+			children = (
+				A90938A419A1C41600C9D27B /* hero_anduin_thumb.png */,
+				A90938A519A1C41600C9D27B /* hero_anduin.png */,
+				A90938A619A1C41600C9D27B /* hero_garosh.png */,
+				A90938A719A1C41600C9D27B /* hero_garrosh_thumb.png */,
+				A90938A819A1C41600C9D27B /* hero_garrosh.png */,
+				A90938A919A1C41600C9D27B /* hero_guldan_thumb.png */,
+				A90938AA19A1C41600C9D27B /* hero_guldan.png */,
+				A90938AB19A1C41600C9D27B /* hero_jaina_thumb.png */,
+				A90938AC19A1C41600C9D27B /* hero_jaina.png */,
+				A90938AD19A1C41600C9D27B /* hero_malfurion_thumb.png */,
+				A90938AE19A1C41600C9D27B /* hero_malfurion.png */,
+				A90938AF19A1C41600C9D27B /* hero_rexxar_thumb.png */,
+				A90938B019A1C41600C9D27B /* hero_rexxar.png */,
+				A90938B119A1C41600C9D27B /* hero_thall.png */,
+				A90938B219A1C41600C9D27B /* hero_thrall_thumb.png */,
+				A90938B319A1C41600C9D27B /* hero_thrall.png */,
+				A90938B419A1C41600C9D27B /* hero_uther_thumb.png */,
+				A90938B519A1C41600C9D27B /* hero_uther.png */,
+				A90938B619A1C41600C9D27B /* hero_valeera_thumb.png */,
+				A9578D3D19AF9FAA00BFB70A /* hero_valeera.png */,
+			);
+			name = heroes;
+			sourceTree = "<group>";
+		};
+		A9793065199D8132006364A4 = {
+			isa = PBXGroup;
+			children = (
+				A9793070199D8132006364A4 /* hearthBrewer */,
+				A979308A199D8132006364A4 /* hearthBrewerTests */,
+				A9473392199D92E80051E2FB /* Frameworks */,
+				A979306F199D8132006364A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A979306F199D8132006364A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A979306E199D8132006364A4 /* hearthBrewer.app */,
+				A9793087199D8132006364A4 /* hearthBrewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9793070199D8132006364A4 /* hearthBrewer */ = {
+			isa = PBXGroup;
+			children = (
+				A979307E199D8132006364A4 /* Main.storyboard */,
+				A9793075199D8132006364A4 /* AppDelegate.h */,
+				A9793076199D8132006364A4 /* AppDelegate.m */,
+				A979307B199D8132006364A4 /* ViewController.h */,
+				A979307C199D8132006364A4 /* ViewController.m */,
+				A9D06714199D88AB0030D091 /* HeroClass.h */,
+				A9D06715199D88AB0030D091 /* HeroClass.m */,
+				A9D06717199D88EE0030D091 /* DeckClass.h */,
+				A9D06718199D88EE0030D091 /* DeckClass.m */,
+				A90B69DE199D8EF000B0EF2A /* CardClass.h */,
+				A90B69DF199D8EF000B0EF2A /* CardClass.m */,
+				A9D0671A199D89450030D091 /* DeckListTableViewCell.h */,
+				A9D0671B199D89450030D091 /* DeckListTableViewCell.m */,
+				A90B69DB199D8E3000B0EF2A /* ViewDeckViewController.h */,
+				A90B69DC199D8E3000B0EF2A /* ViewDeckViewController.m */,
+				A90B69E1199D911100B0EF2A /* CardListTableViewCell.h */,
+				A90B69E2199D911100B0EF2A /* CardListTableViewCell.m */,
+				A94733BC199D95620051E2FB /* CardSingleViewController.h */,
+				A94733BD199D95620051E2FB /* CardSingleViewController.m */,
+				A94733BF199D97370051E2FB /* CreateDeckViewController.h */,
+				A94733C0199D97370051E2FB /* CreateDeckViewController.m */,
+				A94733EB199D9D2A0051E2FB /* CreateDeckCardsViewController.h */,
+				A94733EC199D9D2A0051E2FB /* CreateDeckCardsViewController.m */,
+				A9793081199D8132006364A4 /* Images.xcassets */,
+				A9793078199D8132006364A4 /* hearthBrewer.xcdatamodeld */,
+				A90938CA19A1C42100C9D27B /* assets */,
+				A9793071199D8132006364A4 /* Supporting Files */,
+			);
+			path = hearthBrewer;
+			sourceTree = "<group>";
+		};
+		A9793071199D8132006364A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9793072199D8132006364A4 /* Info.plist */,
+				A9793073199D8132006364A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A979308A199D8132006364A4 /* hearthBrewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A979308D199D8132006364A4 /* hearthBrewerTests.m */,
+				A979308B199D8132006364A4 /* Supporting Files */,
+			);
+			path = hearthBrewerTests;
+			sourceTree = "<group>";
+		};
+		A979308B199D8132006364A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A979308C199D8132006364A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A979306D199D8132006364A4 /* hearthBrewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9793091199D8132006364A4 /* Build configuration list for PBXNativeTarget "hearthBrewer" */;
+			buildPhases = (
+				A979306A199D8132006364A4 /* Sources */,
+				A979306B199D8132006364A4 /* Frameworks */,
+				A979306C199D8132006364A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hearthBrewer;
+			productName = hearthBrewer;
+			productReference = A979306E199D8132006364A4 /* hearthBrewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9793086199D8132006364A4 /* hearthBrewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9793094199D8132006364A4 /* Build configuration list for PBXNativeTarget "hearthBrewerTests" */;
+			buildPhases = (
+				A9793083199D8132006364A4 /* Sources */,
+				A9793084199D8132006364A4 /* Frameworks */,
+				A9793085199D8132006364A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9793089199D8132006364A4 /* PBXTargetDependency */,
+			);
+			name = hearthBrewerTests;
+			productName = hearthBrewerTests;
+			productReference = A9793087199D8132006364A4 /* hearthBrewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9793066199D8132006364A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Daniel Campo";
+				TargetAttributes = {
+					A979306D199D8132006364A4 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A9793086199D8132006364A4 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A979306D199D8132006364A4;
+					};
+				};
+			};
+			buildConfigurationList = A9793069199D8132006364A4 /* Build configuration list for PBXProject "hearthBrewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9793065199D8132006364A4;
+			productRefGroup = A979306F199D8132006364A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A979306D199D8132006364A4 /* hearthBrewer */,
+				A9793086199D8132006364A4 /* hearthBrewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A979306C199D8132006364A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A909389719A1C3F100C9D27B /* hearthstone_card_014.png in Resources */,
+				A90938A319A1C40200C9D27B /* hb_bg_main.jpg in Resources */,
+				A9578D3E19AF9FAA00BFB70A /* hero_valeera.png in Resources */,
+				A90938A219A1C40200C9D27B /* create_hero_choose.png in Resources */,
+				A9793080199D8132006364A4 /* Main.storyboard in Resources */,
+				A90938B719A1C41600C9D27B /* hero_anduin_thumb.png in Resources */,
+				A90938C519A1C41600C9D27B /* hero_thrall_thumb.png in Resources */,
+				A909388A19A1C3F100C9D27B /* hearthstone_card_001.png in Resources */,
+				A909388B19A1C3F100C9D27B /* hearthstone_card_002.png in Resources */,
+				A909389D19A1C3F100C9D27B /* hearthstone_card_020.png in Resources */,
+				A962696319AFE0A900780D3B /* create_cards_added.png in Resources */,
+				A90938A119A1C40200C9D27B /* create_btn_create.png in Resources */,
+				A90938BA19A1C41600C9D27B /* hero_garrosh_thumb.png in Resources */,
+				A909389119A1C3F100C9D27B /* hearthstone_card_008.png in Resources */,
+				A94B727D19A1D8E9006CBF5E /* all-cards.json in Resources */,
+				A90938BB19A1C41600C9D27B /* hero_garrosh.png in Resources */,
+				A90938C319A1C41600C9D27B /* hero_rexxar.png in Resources */,
+				A90938BD19A1C41600C9D27B /* hero_guldan.png in Resources */,
+				A90938B919A1C41600C9D27B /* hero_garosh.png in Resources */,
+				A909388E19A1C3F100C9D27B /* hearthstone_card_005.png in Resources */,
+				A909389219A1C3F100C9D27B /* hearthstone_card_009.png in Resources */,
+				A90938BC19A1C41600C9D27B /* hero_guldan_thumb.png in Resources */,
+				A9793082199D8132006364A4 /* Images.xcassets in Resources */,
+				A909388D19A1C3F100C9D27B /* hearthstone_card_004.png in Resources */,
+				A909389B19A1C3F100C9D27B /* hearthstone_card_018.png in Resources */,
+				A90938C719A1C41600C9D27B /* hero_uther_thumb.png in Resources */,
+				A90938C119A1C41600C9D27B /* hero_malfurion.png in Resources */,
+				A90938C019A1C41600C9D27B /* hero_malfurion_thumb.png in Resources */,
+				A90938C919A1C41600C9D27B /* hero_valeera_thumb.png in Resources */,
+				A909389A19A1C3F100C9D27B /* hearthstone_card_017.png in Resources */,
+				A909389419A1C3F100C9D27B /* hearthstone_card_011.png in Resources */,
+				A909388919A1C3F100C9D27B /* generic.png in Resources */,
+				A90938B819A1C41600C9D27B /* hero_anduin.png in Resources */,
+				A909388F19A1C3F100C9D27B /* hearthstone_card_006.png in Resources */,
+				A909389319A1C3F100C9D27B /* hearthstone_card_010.png in Resources */,
+				A90938BE19A1C41600C9D27B /* hero_jaina_thumb.png in Resources */,
+				A909389619A1C3F100C9D27B /* hearthstone_card_013.png in Resources */,
+				A90938C219A1C41600C9D27B /* hero_rexxar_thumb.png in Resources */,
+				A909389519A1C3F100C9D27B /* hearthstone_card_012.png in Resources */,
+				A909389C19A1C3F100C9D27B /* hearthstone_card_019.png in Resources */,
+				A909388C19A1C3F100C9D27B /* hearthstone_card_003.png in Resources */,
+				A90938C419A1C41600C9D27B /* hero_thall.png in Resources */,
+				A962696419AFE0A900780D3B /* create_cards_available.png in Resources */,
+				A909389819A1C3F100C9D27B /* hearthstone_card_015.png in Resources */,
+				A90938BF19A1C41600C9D27B /* hero_jaina.png in Resources */,
+				A909389019A1C3F100C9D27B /* hearthstone_card_007.png in Resources */,
+				A90938C619A1C41600C9D27B /* hero_thrall.png in Resources */,
+				A90938C819A1C41600C9D27B /* hero_uther.png in Resources */,
+				A909389919A1C3F100C9D27B /* hearthstone_card_016.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9793085199D8132006364A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A979306A199D8132006364A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9793077199D8132006364A4 /* AppDelegate.m in Sources */,
+				A9D06719199D88EE0030D091 /* DeckClass.m in Sources */,
+				A979307A199D8132006364A4 /* hearthBrewer.xcdatamodeld in Sources */,
+				A94733C1199D97370051E2FB /* CreateDeckViewController.m in Sources */,
+				A94733ED199D9D2A0051E2FB /* CreateDeckCardsViewController.m in Sources */,
+				A979307D199D8132006364A4 /* ViewController.m in Sources */,
+				A90B69DD199D8E3000B0EF2A /* ViewDeckViewController.m in Sources */,
+				A94733BE199D95620051E2FB /* CardSingleViewController.m in Sources */,
+				A9D0671C199D89450030D091 /* DeckListTableViewCell.m in Sources */,
+				A9D06716199D88AB0030D091 /* HeroClass.m in Sources */,
+				A90B69E0199D8EF000B0EF2A /* CardClass.m in Sources */,
+				A9793074199D8132006364A4 /* main.m in Sources */,
+				A90B69E3199D911100B0EF2A /* CardListTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9793083199D8132006364A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A979308E199D8132006364A4 /* hearthBrewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9793089199D8132006364A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A979306D199D8132006364A4 /* hearthBrewer */;
+			targetProxy = A9793088199D8132006364A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A979307E199D8132006364A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A979307F199D8132006364A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A979308F199D8132006364A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9793090199D8132006364A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9793092199D8132006364A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = hearthBrewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9793093199D8132006364A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = hearthBrewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9793095199D8132006364A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hearthBrewer.app/hearthBrewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hearthBrewerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A9793096199D8132006364A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hearthBrewer.app/hearthBrewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hearthBrewerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9793069199D8132006364A4 /* Build configuration list for PBXProject "hearthBrewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A979308F199D8132006364A4 /* Debug */,
+				A9793090199D8132006364A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9793091199D8132006364A4 /* Build configuration list for PBXNativeTarget "hearthBrewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9793092199D8132006364A4 /* Debug */,
+				A9793093199D8132006364A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9793094199D8132006364A4 /* Build configuration list for PBXNativeTarget "hearthBrewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9793095199D8132006364A4 /* Debug */,
+				A9793096199D8132006364A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9793078199D8132006364A4 /* hearthBrewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9793079199D8132006364A4 /* hearthBrewer.xcdatamodel */,
+			);
+			currentVersion = A9793079199D8132006364A4 /* hearthBrewer.xcdatamodel */;
+			path = hearthBrewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9793066199D8132006364A4 /* Project object */;
+}
